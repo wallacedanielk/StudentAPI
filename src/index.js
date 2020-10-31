@@ -2,6 +2,9 @@
 // libraries that I need
 const express = require ('express');
 
+//apollo server for gql
+const {apolloServer, gql} = require('apollo-server-express');
+
 //environment variable
 require('dotenv').config();
 
